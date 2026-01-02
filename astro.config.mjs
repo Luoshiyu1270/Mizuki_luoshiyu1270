@@ -28,7 +28,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-	site: siteConfig.siteURL,
+	site: 'https://luoshiyu1270.dpdns.org',
 	base: "/",
 	trailingSlash: "always",
 

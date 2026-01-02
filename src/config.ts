@@ -24,12 +24,12 @@ const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UT
 export const siteConfig: SiteConfig = {
 	title: "Mizuki",
 	subtitle: "A normal website",
-	siteURL: "https://mizuki.luoshiyu1270.dpdns.org/", // 请替换为你的站点URL，以斜杠结尾
+	siteURL: "https://luoshiyu1270.dpdns.org/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
 
-	lang: SITE_LANG,
+	lang: "zh-CN",
 
 	themeColor: {
 		hue: 127, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
